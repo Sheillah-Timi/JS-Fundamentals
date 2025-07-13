@@ -117,3 +117,18 @@ node 8-square.js       → Missing size
 node 8-square.js School→ Missing size  
 node 8-square.js 2     → XX \n XX  
 node 8-square.js 6     → XXXXXX (6x rows)  
+---
+
+## 📁 File: 9-add.js
+
+This script prints the sum of two integers passed as arguments.
+
+- First argument: first number
+- Second argument: second number
+- If either is missing or invalid, prints `NaN`
+
+### Function:
+```javascript
+function add(a, b) {
+  return a + b;
+}
