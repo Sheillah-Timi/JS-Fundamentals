@@ -80,3 +80,10 @@ node 5-to_integer.js 89     → My number: 89
 node 5-to_integer.js "89"   → My number: 89  
 node 5-to_integer.js 89.89  → My number: 89  
 node 5-to_integer.js School → Not a number  
+---
+
+## 📁 File: 6-multi_languages_loop.js
+
+This script prints 3 lines using an **array and a loop**, without `var` or `if/else`.
+
+### Output:
