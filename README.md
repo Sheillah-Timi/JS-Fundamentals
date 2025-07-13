@@ -132,3 +132,19 @@ This script prints the sum of two integers passed as arguments.
 function add(a, b) {
   return a + b;
 }
+---
+
+## 📁 File: 10-factorial.js
+
+This script calculates the **factorial** of a given number using **recursion**.
+
+- If the argument is missing or not a number, it returns `1`
+- Uses `console.log(...)` for output
+- No use of `var`
+
+### Function:
+```javascript
+function factorial(n) {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+}
