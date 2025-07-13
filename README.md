@@ -102,3 +102,18 @@ node 7-multi_c.js       → Missing number of occurrences
 node 7-multi_c.js 2     → C is fun\nC is fun  
 node 7-multi_c.js 5     → C is fun (x5)  
 node 7-multi_c.js -3    → (prints nothing)  
+---
+
+## 📁 File: 8-square.js
+
+This script prints a square of `X` characters based on the size from the first argument.
+
+- If no argument or not a number → prints: `Missing size`
+- If argument is a valid integer → prints a square
+
+### Examples:
+```bash
+node 8-square.js       → Missing size  
+node 8-square.js School→ Missing size  
+node 8-square.js 2     → XX \n XX  
+node 8-square.js 6     → XXXXXX (6x rows)  
