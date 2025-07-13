@@ -53,3 +53,14 @@ This script prints the **first argument** passed to it.
 - Accessing specific CLI arguments (`process.argv[2]`)
 - Avoids `.length`
 - Uses `const` only
+
+
+Examples:
+- `node 4-concat.js c cool` → `c is cool`
+- `node 4-concat.js c` → `c is undefined`
+- `node 4-concat.js` → `undefined is undefined`
+
+### Concepts demonstrated:
+- Handling multiple CLI arguments
+- Template literals
+- No use of `var`
