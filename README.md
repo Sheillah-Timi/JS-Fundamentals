@@ -87,3 +87,18 @@ node 5-to_integer.js School → Not a number
 This script prints 3 lines using an **array and a loop**, without `var` or `if/else`.
 
 ### Output:
+---
+
+## 📁 File: 7-multi_c.js
+
+This script prints `"C is fun"` x times, where x is the first argument.
+
+- If x is not a valid number → prints: `Missing number of occurrences`
+- If x is valid and positive → prints `"C is fun"` that many times
+
+### Examples:
+```bash
+node 7-multi_c.js       → Missing number of occurrences  
+node 7-multi_c.js 2     → C is fun\nC is fun  
+node 7-multi_c.js 5     → C is fun (x5)  
+node 7-multi_c.js -3    → (prints nothing)  
