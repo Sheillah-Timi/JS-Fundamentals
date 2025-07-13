@@ -64,3 +64,19 @@ Examples:
 - Handling multiple CLI arguments
 - Template literals
 - No use of `var`
+---
+
+## 📁 File: 5-to_integer.js
+
+This script checks if the first argument can be converted to an integer.
+
+- If it can: prints `My number: <integer>`
+- If not: prints `Not a number`
+
+### Examples:
+```bash
+node 5-to_integer.js        → Not a number  
+node 5-to_integer.js 89     → My number: 89  
+node 5-to_integer.js "89"   → My number: 89  
+node 5-to_integer.js 89.89  → My number: 89  
+node 5-to_integer.js School → Not a number  
