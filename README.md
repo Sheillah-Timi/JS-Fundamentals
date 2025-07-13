@@ -39,3 +39,17 @@ This script prints a message depending on the number of arguments passed via the
 - Conditional logic
 - `console.log()` output
 - No use of `var`
+
+---
+
+## 📁 File: 3-value_argument.js
+
+This script prints the **first argument** passed to it.
+
+- If no arguments → `No argument`
+- If one argument → it prints that value
+
+### Concepts demonstrated:
+- Accessing specific CLI arguments (`process.argv[2]`)
+- Avoids `.length`
+- Uses `const` only
